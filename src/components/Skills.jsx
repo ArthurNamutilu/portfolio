@@ -6,6 +6,8 @@ import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Bootstrap from "../assets/bootsrap.png";
 import Flask from "../assets/flask.png";
+import NodeJS from "../assets/node.png";
+import MongoDB from "../assets/mongo.png";
 
 const Skills = () => {
   return (
@@ -33,6 +35,18 @@ const Skills = () => {
             <p className="my-4">JavaScript</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={ReactImg} alt="HTML Icon" />
+            <p className="my-4">React</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={NodeJS} alt="HTML Icon" />
+            <p className="my-4">Node</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={MongoDB} alt="HTML Icon" />
+            <p className="my-4">MongoDB</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind} alt="HTML Icon" />
             <p className="my-4">Tailwind</p>
           </div>
@@ -40,10 +54,7 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={Bootstrap} alt="HTML Icon" />
             <p className="my-4">Bootstrap</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="HTML Icon" />
-            <p className="my-4">React</p>
-          </div>
+
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={GitHub} alt="HTML Icon" />
             <p className="my-4">GitHub</p>
