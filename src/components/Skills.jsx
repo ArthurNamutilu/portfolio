@@ -9,6 +9,7 @@ import Flask from "../assets/flask.png";
 import NodeJS from "../assets/node.png";
 import MongoDB from "../assets/mongo.png";
 import Express from "../assets/express.png";
+import NextJS from "../assets/nextjs.png";
 
 const Skills = () => {
   return (
@@ -38,6 +39,10 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="HTML Icon" />
             <p className="my-4">React</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] bg-[#162946] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto pt-5 " src={NextJS} alt="HTML Icon" />
+            <p className="my-4">NextJS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={NodeJS} alt="HTML Icon" />
